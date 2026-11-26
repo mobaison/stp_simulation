@@ -1,0 +1,109 @@
+{
+  "plant_reference_mgd": 7.5,
+  "outlet_cap_mgd": 3.1,
+  "train_count": 4,
+  "transfer_cap_gpm": 1400.0,
+  "membrane_retention": 0.9998,
+  "soluble_retention": 0,
+  "anoxic_no3_rates": {
+    "pre": 0.2,
+    "post": 0.12
+  },
+  "target_mlss_g_l": 10.0,
+  "target_tin_screen_mg_l": 10,
+  "target_ammonia_mg_l": 1,
+  "verification_h": 24.0,
+  "warm_window_min": 60.0,
+  "warm_quality_percent": 0.5,
+  "warm_water_m3": 1.0,
+  "warm_solids_percent": 1.0,
+  "verification_steps_seconds": 900,
+  "checkpoint_count": 8,
+  "simulated_h": 24.0,
+  "engine_step_s": 5,
+  "protocol_version": "1.1",
+  "actual_grid_sizes": {
+    "primary_perturbations": 7,
+    "reduced_perturbations": 3
+  },
+  "onsets_h": [
+    2.0,
+    8.0,
+    16.0
+  ],
+  "perturbation_levels": [
+    25,
+    50,
+    75
+  ],
+  "recovery": {
+    "boundary_min": 540,
+    "duration_min": 60,
+    "first_alarm_free_min": 545,
+    "minutes_to_clear": 5,
+    "trace_rows": 1440,
+    "after_recovery_alarms": 0
+  },
+  "healthy_controls": {
+    "zero": {
+      "false": 0,
+      "n": 320
+    },
+    "biased": {
+      "false": 640,
+      "n": 640
+    }
+  },
+  "sensor_runs": 2880,
+  "lift_grid": {
+    "distinct_settings": 21,
+    "runs_including_onset_repeats": 63,
+    "late_distinct": 7,
+    "silent_distinct": 14
+  },
+  "chatbot_totals": [
+    {
+      "mode": "with_snapshot",
+      "correct": 25,
+      "scored": 30
+    },
+    {
+      "mode": "without_snapshot",
+      "correct": 6,
+      "scored": 30
+    },
+    {
+      "mode": "fallback_with_snapshot",
+      "correct": 26,
+      "scored": 30
+    }
+  ],
+  "abstract_ammonia_rate_perturbation": 0.19999999999999996,
+  "ammonia_diagnostic_ph": 6.0,
+  "perturbation_fraction_range": 0.25,
+  "limit_pages": 12,
+  "figure_heatmap_scale": [
+    0,
+    2,
+    15,
+    60,
+    240,
+    420
+  ],
+  "archive_fields": [
+    "settings",
+    "ports and tank states",
+    "nutrient and solids readings",
+    "flow",
+    "energy",
+    "new alarms"
+  ],
+  "process_units": "Pretreatment and EQ \u2192 parallel anaerobic, pre-anoxic, aerobic, post-anoxic, membrane trains \u2192 holding tank",
+  "architecture": [
+    "Operator dashboard",
+    "Python / FastAPI",
+    "Finite-volume twin",
+    "SQLite archive",
+    "Read-only chatbot"
+  ]
+}

@@ -1,0 +1,64 @@
+fault,duration_min,perturbation,onset_replicates,status_state,status_delay_min,status_during_outage,status_signal,process_state,process_delay_min,process_during_outage,process_signal,in_process_state,in_process_delay_min,in_process_during_outage,in_process_signal,outlet_state,outlet_delay_min,outlet_during_outage,outlet_signal
+aeration,15,none,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,right_censored,,,
+aeration,15,outlet_25,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,right_censored,,,
+aeration,15,outlet_50,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,right_censored,,,
+aeration,15,outlet_75,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,right_censored,,,
+aeration,15,wet_25,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,right_censored,,,
+aeration,15,wet_50,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,right_censored,,,
+aeration,15,wet_75,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,right_censored,,,
+aeration,60,none,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,57,True,nh4
+aeration,60,outlet_25,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,59,True,nh4
+aeration,60,outlet_50,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,68,False,nh4
+aeration,60,outlet_75,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,75,False,nh4
+aeration,60,wet_25,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,57,True,nh4
+aeration,60,wet_50,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,57,True,nh4
+aeration,60,wet_75,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,57,True,nh4
+aeration,240,none,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,57,True,nh4
+aeration,240,outlet_25,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,59,True,nh4
+aeration,240,outlet_50,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,68,True,nh4
+aeration,240,outlet_75,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,75,True,nh4
+aeration,240,wet_25,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,57,True,nh4
+aeration,240,wet_50,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,57,True,nh4
+aeration,240,wet_75,3,detected,1,True,Aeration unavailable,unavailable,,,,detected,7,True,aerobic_nh4,detected,57,True,nh4
+lift,15,none,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,15,outlet_25,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,15,outlet_50,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,15,outlet_75,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,15,wet_25,3,detected,1,True,Lift pump stopped,detected,15,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,15,wet_50,3,detected,1,True,Lift pump stopped,detected,10,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,15,wet_75,3,detected,1,True,Lift pump stopped,detected,5,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,60,none,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,60,outlet_25,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,60,outlet_50,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,60,outlet_75,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,60,wet_25,3,detected,1,True,Lift pump stopped,detected,15,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,60,wet_50,3,detected,1,True,Lift pump stopped,detected,10,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,60,wet_75,3,detected,1,True,Lift pump stopped,detected,5,True,Facility lift station: HIGH LEVEL,right_censored,,,,right_censored,,,
+lift,240,none,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,detected,322,False,tss
+lift,240,outlet_25,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,detected,322,False,tss
+lift,240,outlet_50,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,detected,322,False,tss
+lift,240,outlet_75,3,detected,1,True,Lift pump stopped,detected,14,True,Facility lift station: HIGH LEVEL,right_censored,,,,detected,322,False,tss
+lift,240,wet_25,3,detected,1,True,Lift pump stopped,detected,15,True,Facility lift station: HIGH LEVEL,right_censored,,,,detected,323,False,tss
+lift,240,wet_50,3,detected,1,True,Lift pump stopped,detected,10,True,Facility lift station: HIGH LEVEL,right_censored,,,,detected,321,False,tss
+lift,240,wet_75,3,detected,1,True,Lift pump stopped,detected,5,True,Facility lift station: HIGH LEVEL,right_censored,,,,detected,318,False,tss
+permeate,15,none,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,15,outlet_25,3,unavailable,,,,detected,11,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,11,True,treated_gpm
+permeate,15,outlet_50,3,unavailable,,,,right_censored,,,,right_censored,,,,detected,49,False,treated_gpm
+permeate,15,outlet_75,3,unavailable,,,,right_censored,,,,right_censored,,,,detected,120,False,treated_gpm
+permeate,15,wet_25,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,15,wet_50,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,15,wet_75,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,60,none,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,60,outlet_25,3,unavailable,,,,detected,11,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,11,True,treated_gpm
+permeate,60,outlet_50,3,unavailable,,,,detected,21,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,21,True,treated_gpm
+permeate,60,outlet_75,3,unavailable,,,,detected,30,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,31,True,treated_gpm
+permeate,60,wet_25,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,60,wet_50,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,60,wet_75,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,240,none,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,240,outlet_25,3,unavailable,,,,detected,11,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,11,True,treated_gpm
+permeate,240,outlet_50,3,unavailable,,,,detected,21,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,21,True,treated_gpm
+permeate,240,outlet_75,3,unavailable,,,,detected,30,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,31,True,treated_gpm
+permeate,240,wet_25,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,240,wet_50,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm
+permeate,240,wet_75,3,unavailable,,,,detected,1,True,Treated water holding tank: LOW LEVEL,right_censored,,,,detected,2,True,treated_gpm

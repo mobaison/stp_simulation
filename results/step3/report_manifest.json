@@ -1,0 +1,68 @@
+{
+  "equipment_runs": 756,
+  "primary_runs": 189,
+  "onset_minutes": [
+    120,
+    480,
+    960
+  ],
+  "outage_durations_min": [
+    15,
+    60,
+    240
+  ],
+  "primary_perturbations": [
+    "none",
+    "wet_25",
+    "wet_50",
+    "wet_75",
+    "outlet_25",
+    "outlet_50",
+    "outlet_75"
+  ],
+  "reduced_perturbations": [
+    "none",
+    "wet_50",
+    "outlet_50"
+  ],
+  "primary_distinct_settings_per_fault": 21,
+  "onsets_per_setting": 3,
+  "primary_configurations_per_duration": 21,
+  "invariant_groups_all": 252,
+  "groups_all": 252,
+  "companions": 84,
+  "experiment_minutes": 1440,
+  "resolution_min": 1,
+  "aerobic_threshold": {
+    "relative": 0.2,
+    "absolute_mg_l": 0.5,
+    "persistence_samples": 2
+  },
+  "outlet_threshold": {
+    "relative_drop": 0.1,
+    "relative_rise": 0.2,
+    "absolute_rise_mg_l": {
+      "nh4": 0.5,
+      "cod": 5.0,
+      "bod": 2.0,
+      "tss": 1.0
+    },
+    "persistence_samples": 2
+  },
+  "sensor": {
+    "noise_sigma_pp": 0.5,
+    "seeds": 20,
+    "inlet_bias": [
+      -0.05,
+      0.0,
+      0.05
+    ],
+    "onset_min": 120,
+    "test_threshold_pp": 2.0,
+    "persistence_samples": 2,
+    "drift_pp_per_min": 0.2,
+    "surge_fraction": 0.2,
+    "surge_start_min": 180,
+    "surge_duration_min": 15
+  }
+}

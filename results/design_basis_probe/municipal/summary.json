@@ -1,0 +1,157 @@
+{
+  "status": "Design-basis probe only; not adopted, calibrated or field-validated",
+  "engine_sha256": "a7a43a0dde4ea6c9c03e91f43dffe66cb317fe49a19aa21a0b47547ac70eed20",
+  "controls": {
+    "inlet_gpm": 1900.0,
+    "lift_gpm": 3000,
+    "permeate_gpm": 2074.2382271468146,
+    "eq_fraction": 0.15,
+    "eq_return_gpm": 390.0,
+    "nrcy_ratio": 0.3,
+    "arcy_ratio": 0.12,
+    "ras_ratio": 0.12,
+    "wasting_ratio": 0.005,
+    "aeration": 1.0,
+    "air_scour": 1.0,
+    "fouling": 0.15,
+    "inlet_bod": 200.0,
+    "inlet_cod": 500.0,
+    "inlet_tss": 200.0,
+    "inlet_nh4": 25.0,
+    "inlet_no3": 0.0,
+    "lift_on": true,
+    "permeate_on": true,
+    "eq_on": true,
+    "recycle_on": true,
+    "dt_s": 60.0,
+    "stream_type": "municipal",
+    "aerobic_ph": 7.2
+  },
+  "influent": "municipal",
+  "default_influent_contact_h": 3.9660351881611278,
+  "default_influent_nh4_target_mg_l": 1.0,
+  "proposed_rate_h": 5.799,
+  "baseline": {
+    "rate_h": 0.17,
+    "candidate": {
+      "time_s": 233280.0,
+      "nh4_mg_l": 14.931,
+      "cod_mg_l": 238.673,
+      "inventory_m3": 5764.018802298719,
+      "rejected_m3": 0.0,
+      "alarms": []
+    },
+    "verified": {
+      "time_s": 319680.0,
+      "nh4_mg_l": 14.932,
+      "cod_mg_l": 239.216,
+      "inventory_m3": 5764.01880229479,
+      "rejected_m3": 0.0,
+      "alarms": []
+    },
+    "verified_nitrate_range_mg_l": [
+      7.148,
+      7.149
+    ],
+    "final_step": {
+      "time_s": 319680.0,
+      "nh4_mg_l": 14.932,
+      "no3_mg_l": 7.148,
+      "modeled_tin_mg_l": 22.08,
+      "cod_mg_l": 239.216,
+      "discharge_m3": 7.086290859648,
+      "nitrified_kg_n": 0.0724027315651273,
+      "pre_anoxic_denitrified_kg_n": 0.010995582888035926,
+      "post_anoxic_denitrified_kg_n": 0.010001691997247875,
+      "denitrified_kg_n": 0.0209972748852838,
+      "modeled_anoxic_cod_loss_kg": 0.5204733288582304,
+      "influent_tin_kg_n": 0.17980705974,
+      "effluent_tin_kg_n": 0.15646835105583107,
+      "waste_tin_kg_n": 0.0023403385841682944,
+      "tin_inventory_change_kg_n": 1.0952147420084657e-06,
+      "tin_balance_kg_n": -2.5174307083375425e-14,
+      "rejected_m3": 0.0,
+      "alarms": ""
+    },
+    "final_hour": {
+      "discharge_m3": 425.17745157888,
+      "nitrified_kg_n": 4.3441600490765575,
+      "pre_anoxic_denitrified_kg_n": 0.6597365984402517,
+      "post_anoxic_denitrified_kg_n": 0.6001019592361274,
+      "denitrified_kg_n": 1.259838557676379,
+      "modeled_anoxic_cod_loss_kg": 31.227853979757164,
+      "influent_tin_kg_n": 10.7884235844,
+      "effluent_tin_kg_n": 9.388097126057867,
+      "waste_tin_kg_n": 0.14042025615898499,
+      "tin_inventory_change_kg_n": 6.764450785112786e-05,
+      "tin_balance_kg_n": -1.0825507157363745e-12
+    }
+  },
+  "proposal": {
+    "rate_h": 5.799,
+    "candidate": {
+      "time_s": 233280.0,
+      "nh4_mg_l": 1.046,
+      "cod_mg_l": 238.673,
+      "inventory_m3": 5764.018802298719,
+      "rejected_m3": 0.0,
+      "alarms": []
+    },
+    "verified": {
+      "time_s": 319680.0,
+      "nh4_mg_l": 1.046,
+      "cod_mg_l": 239.216,
+      "inventory_m3": 5764.01880229479,
+      "rejected_m3": 0.0,
+      "alarms": []
+    },
+    "verified_nitrate_range_mg_l": [
+      17.008,
+      17.008
+    ],
+    "final_step": {
+      "time_s": 319680.0,
+      "nh4_mg_l": 1.046,
+      "no3_mg_l": 17.008,
+      "modeled_tin_mg_l": 18.054,
+      "cod_mg_l": 239.216,
+      "discharge_m3": 7.086290859648,
+      "nitrified_kg_n": 0.1722820890820531,
+      "pre_anoxic_denitrified_kg_n": 0.02616215638305075,
+      "post_anoxic_denitrified_kg_n": 0.023798154823289508,
+      "denitrified_kg_n": 0.04996031120634026,
+      "modeled_anoxic_cod_loss_kg": 0.5204733288582304,
+      "influent_tin_kg_n": 0.17980705974,
+      "effluent_tin_kg_n": 0.12793278098919872,
+      "waste_tin_kg_n": 0.001913524501975239,
+      "tin_inventory_change_kg_n": 4.4304246671345027e-07,
+      "tin_balance_kg_n": 1.9068080447937064e-14,
+      "rejected_m3": 0.0,
+      "alarms": ""
+    },
+    "final_hour": {
+      "discharge_m3": 425.17745157888,
+      "nitrified_kg_n": 10.336918443291575,
+      "pre_anoxic_denitrified_kg_n": 1.5697302640433817,
+      "post_anoxic_denitrified_kg_n": 1.4278890828975523,
+      "denitrified_kg_n": 2.997619346940934,
+      "modeled_anoxic_cod_loss_kg": 31.227853979757164,
+      "influent_tin_kg_n": 10.7884235844,
+      "effluent_tin_kg_n": 7.675965426766601,
+      "waste_tin_kg_n": 0.11481144869095361,
+      "tin_inventory_change_kg_n": 2.736200266895139e-05,
+      "tin_balance_kg_n": -1.158434459469504e-12
+    }
+  },
+  "screening": {
+    "modeled_tin_screen_mg_l": 10.0,
+    "additional_effluent_tin_to_remove_kg_n_h": 3.424190910977801,
+    "stoichiometric_minimum_additional_cod_kg_h": 9.79318600539651,
+    "current_denitrification_minimum_cod_equivalent_kg_h": 8.57319133225107,
+    "tin_screen_minimum_cod_equivalent_kg_h": 18.36637733764758,
+    "upper_bound_denitrification_from_modeled_anoxic_cod_kg_n_h": 10.918830062852155,
+    "candidate_nitrification_oxygen_demand_kg_h": 47.2397172858425,
+    "candidate_nitrification_alkalinity_demand_as_caco3_kg_h": 73.80559768510184,
+    "balanced_discharge_gpm": 1871.9999999999998
+  }
+}

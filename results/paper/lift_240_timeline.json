@@ -1,0 +1,40 @@
+{
+  "markers_min": {
+    "command": 1,
+    "process": 14,
+    "restoration": 240,
+    "outlet": 322
+  },
+  "detection_file": "results/step3/equipment_detection.csv",
+  "detection_row": 391,
+  "source_trace": "results/step3/equipment/municipal_adopted_t480_none/lift_240m.csv.gz",
+  "trace_first_csv_row": 451,
+  "trace_last_csv_row": 841,
+  "x_ticks": [
+    0.0,
+    50.0,
+    100.0,
+    150.0,
+    200.0,
+    250.0,
+    300.0,
+    350.0
+  ],
+  "y_ticks": {
+    "treated_gpm": [
+      0.0,
+      800.0,
+      1600.0
+    ],
+    "wet_level_pct": [
+      0.0,
+      40.0,
+      80.0
+    ],
+    "rejected_m3": [
+      0.0,
+      800.0,
+      1600.0
+    ]
+  }
+}

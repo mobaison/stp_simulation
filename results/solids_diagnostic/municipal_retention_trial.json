@@ -1,0 +1,97 @@
+{
+  "case": "municipal_retention_trial",
+  "input_controls": {
+    "inlet_gpm": 1900.0,
+    "lift_gpm": 3000,
+    "permeate_gpm": 2074.2382271468146,
+    "eq_fraction": 0.15,
+    "eq_return_gpm": 390.0,
+    "nrcy_ratio": 0.3,
+    "arcy_ratio": 0.12,
+    "ras_ratio": 0.12,
+    "wasting_ratio": 0.005,
+    "aeration": 1.0,
+    "air_scour": 1.0,
+    "fouling": 0.15,
+    "inlet_bod": 200.0,
+    "inlet_cod": 500.0,
+    "inlet_tss": 200.0,
+    "inlet_nh4": 25.0,
+    "inlet_no3": 0.0,
+    "lift_on": true,
+    "permeate_on": true,
+    "eq_on": true,
+    "recycle_on": true,
+    "dt_s": 900,
+    "stream_type": "municipal",
+    "aerobic_ph": 7.2
+  },
+  "is_trial": true,
+  "converged": true,
+  "notes": "Membrane tank TSS is a mixed-liquor solids proxy; biomass is not explicit.",
+  "candidate": {
+    "time_s": 3236400.0,
+    "nh4_mg_l": 1.046,
+    "cod_mg_l": 97.448,
+    "inventory_m3": 5764.0188021621525,
+    "rejected_m3": 0.0,
+    "alarms": [],
+    "permeate_tss_mg_l": 2.5036541800031014,
+    "membrane_tss_mg_l": [
+      12530.216409035695,
+      12530.216409035695,
+      12530.216409035695,
+      12530.216409035695
+    ]
+  },
+  "verified": {
+    "time_s": 3322800.0,
+    "nh4_mg_l": 1.046,
+    "cod_mg_l": 97.448,
+    "inventory_m3": 5764.0188021582235,
+    "rejected_m3": 0.0,
+    "alarms": [],
+    "permeate_tss_mg_l": 2.516016419443602,
+    "membrane_tss_mg_l": [
+      12592.061450207913,
+      12592.061450207913,
+      12592.061450207913,
+      12592.061450207913
+    ]
+  },
+  "final_step": {
+    "time_s": 3322800.0,
+    "admitted_m3": 107.8842358440002,
+    "permeate_m3": 106.29436289471987,
+    "influent_tss_kg": 21.57684716880004,
+    "waste_tss_kg": 20.00073222609061,
+    "permeate_tss_kg": 0.2674383623374119,
+    "discharged_tss_kg": 0.2674383623374109,
+    "in_process_inventory_tss_kg": 27047.56491891304,
+    "in_process_inventory_change_tss_kg": 1.3086765803964227,
+    "mb_tss_residual_kg": -2.440359025968064e-11,
+    "membrane_tss_mg_l": 12592.061450207913,
+    "permeate_tss_mg_l": 2.516016419443602,
+    "effluent_tss_mg_l": 2.516,
+    "effluent_cod_mg_l": 97.448,
+    "effluent_bod_mg_l": 25.875,
+    "effluent_nh4_mg_l": 1.046,
+    "effluent_no3_mg_l": 17.008,
+    "rejected_m3": 0.0,
+    "alarms": ""
+  },
+  "final_hour_tss_kg": {
+    "influent_tss_kg": 86.30738867520016,
+    "waste_tss_kg": 79.99700410326949,
+    "permeate_tss_kg": 1.069674226295029,
+    "discharged_tss_kg": 1.0696742262950285,
+    "in_process_inventory_change_tss_kg": 5.2407103457189805,
+    "mb_tss_residual_kg": -8.334044565572185e-11
+  },
+  "max_step_tss_residual_kg": 8.144862562176058e-11,
+  "particulate_inlet_fractions": {
+    "cod": 0.6112185686653772,
+    "bod": 0.6166666666666667
+  },
+  "net_tss_removal_permeate_equilibrium_mg_l": 2.678470734182634
+}

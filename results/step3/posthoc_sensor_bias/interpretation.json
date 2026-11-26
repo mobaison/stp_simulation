@@ -1,0 +1,23 @@
+{
+  "label": "POST-HOC",
+  "criterion": "No healthy false alarms, all drift detections on both schedules, and all stuck detections on surge; constant-flow stuck excluded as unobservable at zero bias.",
+  "passing_biases": [
+    -0.01,
+    -0.005,
+    0.0,
+    0.005,
+    0.01,
+    0.02
+  ],
+  "all_conditions": [
+    -0.05,
+    -0.02,
+    -0.01,
+    -0.005,
+    0.0,
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ]
+}

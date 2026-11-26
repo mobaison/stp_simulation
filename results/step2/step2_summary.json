@@ -1,0 +1,225 @@
+{
+  "engine_sha256": "a7a43a0dde4ea6c9c03e91f43dffe66cb317fe49a19aa21a0b47547ac70eed20",
+  "controls": {
+    "inlet_gpm": 1900.0,
+    "lift_gpm": 3000,
+    "permeate_gpm": 2074.2382271468146,
+    "eq_fraction": 0.15,
+    "eq_return_gpm": 390.0,
+    "nrcy_ratio": 0.3,
+    "arcy_ratio": 0.12,
+    "ras_ratio": 0.12,
+    "wasting_ratio": 0.005,
+    "aeration": 1.0,
+    "air_scour": 1.0,
+    "fouling": 0.15,
+    "inlet_bod": 35.0,
+    "inlet_cod": 80.0,
+    "inlet_tss": 5.0,
+    "inlet_nh4": 24.0,
+    "inlet_no3": 1.0,
+    "lift_on": true,
+    "permeate_on": true,
+    "eq_on": true,
+    "recycle_on": true,
+    "dt_s": 60.0,
+    "stream_type": "custom",
+    "aerobic_ph": 7.2
+  },
+  "legacy_inflow_minus_discharge_and_waste_gpm": 157.25,
+  "warmup": {
+    "60s": {
+      "candidate": {
+        "time_s": 109800.0,
+        "nh4_mg_l": 14.362,
+        "cod_mg_l": 38.391,
+        "inventory_m3": 5764.018802299098,
+        "rejected_m3": 0.0,
+        "alarms": []
+      },
+      "verified": {
+        "time_s": 196200.0,
+        "nh4_mg_l": 14.336,
+        "cod_mg_l": 38.301,
+        "inventory_m3": 5764.018802299096,
+        "rejected_m3": 0.0,
+        "alarms": []
+      }
+    },
+    "300s": {
+      "candidate": {
+        "time_s": 113100.0,
+        "nh4_mg_l": 14.358,
+        "cod_mg_l": 38.376,
+        "inventory_m3": 5764.018802299095,
+        "rejected_m3": 0.0,
+        "alarms": []
+      },
+      "verified": {
+        "time_s": 199500.0,
+        "nh4_mg_l": 14.336,
+        "cod_mg_l": 38.301,
+        "inventory_m3": 5764.018802299098,
+        "rejected_m3": 0.0,
+        "alarms": []
+      }
+    }
+  },
+  "equal_elapsed_comparison": {
+    "60s": {
+      "time_s": 196200.0,
+      "nh4_mg_l": 14.336,
+      "cod_mg_l": 38.301,
+      "inventory_m3": 5764.018802299096,
+      "rejected_m3": 0.0,
+      "alarms": []
+    },
+    "300s": {
+      "time_s": 196200.0,
+      "nh4_mg_l": 14.336,
+      "cod_mg_l": 38.301,
+      "inventory_m3": 5764.018802299096,
+      "rejected_m3": 0.0,
+      "alarms": []
+    }
+  },
+  "equal_elapsed_difference_percent": {
+    "nh4_mg_l": 0.0,
+    "cod_mg_l": 0.0
+  },
+  "verified_end_difference_percent": {
+    "nh4_mg_l": 0.0,
+    "cod_mg_l": 0.0
+  },
+  "structural_ledger_60s": {
+    "balances": {
+      "nh4": {
+        "admitted_kg": 10.356886641023996,
+        "treated_kg": 6.095278761369994,
+        "wasted_kg": 0.09116869942221584,
+        "reacted_kg": 4.170553490956841,
+        "inventory_delta_kg": -0.00011431072432799283,
+        "closure_kg": -7.274181257344026e-13
+      },
+      "cod": {
+        "admitted_kg": 34.522955470079985,
+        "treated_kg": 16.284813372187845,
+        "wasted_kg": 0.2970442297407416,
+        "reacted_kg": 17.941538964161243,
+        "inventory_delta_kg": -0.00044109601043373914,
+        "closure_kg": 5.897504706808832e-13
+      }
+    },
+    "recycles": {
+      "nrcy": {
+        "flow_gpm": 1679.9999999999893,
+        "flow_over_influent": 0.8842105263157843,
+        "nh4_kg_h": 5.470098688329582
+      },
+      "arcy": {
+        "flow_gpm": 672.0000000000073,
+        "flow_over_influent": 0.3536842105263198,
+        "nh4_kg_h": 2.1880487861328213
+      },
+      "ras": {
+        "flow_gpm": 672.0000000000073,
+        "flow_over_influent": 0.3536842105263198,
+        "nh4_kg_h": 2.1880487861328213
+      }
+    },
+    "aerobic_m3": 1711.4907024207112,
+    "admitted_gpm": 1899.9999999999989,
+    "treated_gpm": 1871.999999999997,
+    "waste_gpm": 28.0,
+    "aerobic_nh4_kg": 24.529751120320768,
+    "gross_aerobic_outflow_m3_h": 1118.3620574628926,
+    "aerobic_single_pass_h": 1.5303547639155297,
+    "aerobic_volume_over_influent_h": 3.9660351881611278,
+    "observed_first_order_per_h": 0.17002021221087318,
+    "ideal_mixed_tank_nh4_mg_l_by_rate_multiplier": {
+      "0.8": 15.590034926845252,
+      "1.0": 14.334296079196296,
+      "1.2": 13.265770959406163
+    }
+  },
+  "no_recycle_diagnostic_300s": {
+    "initial_condition": "Verified 60 s baseline; recycle disabled from time zero",
+    "first_alarm": {
+      "time_s": 14700.0,
+      "nh4_mg_l": 14.383,
+      "cod_mg_l": 38.546,
+      "inventory_m3": 5764.018802299102,
+      "rejected_m3": 0.0,
+      "alarms": [
+        "Membrane tank 1: HIGH LEVEL",
+        "Membrane tank 2: HIGH LEVEL",
+        "Membrane tank 3: HIGH LEVEL",
+        "Membrane tank 4: HIGH LEVEL"
+      ]
+    },
+    "state_after_48h": {
+      "time_s": 172800.0,
+      "nh4_mg_l": 17.205,
+      "cod_mg_l": 48.466,
+      "inventory_m3": 5764.018802299092,
+      "rejected_m3": 0.0,
+      "alarms": [
+        "Membrane tank 1: HIGH LEVEL",
+        "Membrane tank 2: HIGH LEVEL",
+        "Membrane tank 3: HIGH LEVEL",
+        "Membrane tank 4: HIGH LEVEL"
+      ]
+    },
+    "following_hour_ledger": {
+      "balances": {
+        "nh4": {
+          "admitted_kg": 10.356886641024007,
+          "treated_kg": 7.315113916464175,
+          "wasted_kg": 0.10941409704118854,
+          "reacted_kg": 2.9321621930472475,
+          "inventory_delta_kg": 0.00019643447346595622,
+          "closure_kg": -2.070343896320992e-12
+        },
+        "cod": {
+          "admitted_kg": 34.52295547008002,
+          "treated_kg": 20.60690902480674,
+          "wasted_kg": 0.37588170516367825,
+          "reacted_kg": 13.538064914198365,
+          "inventory_delta_kg": 0.002099825915763631,
+          "closure_kg": -4.526157226791838e-12
+        }
+      },
+      "recycles": {
+        "nrcy": {
+          "flow_gpm": 0.0,
+          "flow_over_influent": 0.0,
+          "nh4_kg_h": 0.0
+        },
+        "arcy": {
+          "flow_gpm": 0.0,
+          "flow_over_influent": 0.0,
+          "nh4_kg_h": 0.0
+        },
+        "ras": {
+          "flow_gpm": 0.0,
+          "flow_over_influent": 0.0,
+          "nh4_kg_h": 0.0
+        }
+      },
+      "aerobic_m3": 1002.6006445754207,
+      "admitted_gpm": 1900.000000000001,
+      "treated_gpm": 1871.999999999997,
+      "waste_gpm": 28.0,
+      "aerobic_nh4_kg": 17.245976756654866,
+      "gross_aerobic_outflow_m3_h": 431.53694415094344,
+      "aerobic_single_pass_h": 2.323325171030386,
+      "aerobic_volume_over_influent_h": 2.3233251752025548,
+      "observed_first_order_per_h": 0.17002007102414693,
+      "ideal_mixed_tank_nh4_mg_l_by_rate_multiplier": {
+        "0.8": 18.236950014720346,
+        "1.0": 17.20415417645604,
+        "1.2": 16.282067348229955
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+backend/.env
+backend/history/
+__pycache__/
+node_modules/
+dist/

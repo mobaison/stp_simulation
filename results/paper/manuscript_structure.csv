@@ -1,0 +1,7 @@
+section_label,title
+1,System architecture and simulated flow paths
+2,Lift-pump detection delay
+3,Aeration detection delay
+4,Permeate detection delay
+5,Municipal lift-pump outage time series
+6,Live simulation dashboard during lift-pump outage

@@ -1,0 +1,1897 @@
+{
+  "benchmark": "live provider benchmark",
+  "numeric_relative_tolerance": 0.01,
+  "questions": [
+    {
+      "id": "Q01",
+      "context": "normal",
+      "category": "numeric",
+      "field": "nh4",
+      "question": "What is the most recent discharged ammonia nitrogen concentration in mg/L as N?",
+      "answer": 1.046,
+      "unit": "mg/L as N",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/companion.csv.gz",
+      "source_row": "row 121; alarm history rows 2–121"
+    },
+    {
+      "id": "Q02",
+      "context": "normal",
+      "category": "numeric",
+      "field": "wet_level_pct",
+      "question": "What is the current wet-well fill in percent?",
+      "answer": 31.27731724679677,
+      "unit": "%",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/companion.csv.gz",
+      "source_row": "row 121; alarm history rows 2–121"
+    },
+    {
+      "id": "Q03",
+      "context": "normal",
+      "category": "numeric",
+      "field": "treated_gpm",
+      "question": "What is the current treated discharge in US gal/min?",
+      "answer": 1862.37,
+      "unit": "US gal/min",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/companion.csv.gz",
+      "source_row": "row 121; alarm history rows 2–121"
+    },
+    {
+      "id": "Q04",
+      "context": "lift",
+      "category": "numeric",
+      "field": "wet_level_pct",
+      "question": "What is the current wet-well fill in percent?",
+      "answer": 100.0,
+      "unit": "%",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q05",
+      "context": "lift",
+      "category": "numeric",
+      "field": "rejected_m3",
+      "question": "What cumulative influent volume has been rejected in m³?",
+      "answer": 289.7851805445017,
+      "unit": "m³",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q06",
+      "context": "lift",
+      "category": "numeric",
+      "field": "energy_kwh",
+      "question": "What is cumulative modeled energy use in kWh?",
+      "answer": 640.0708509464162,
+      "unit": "kWh",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q07",
+      "context": "lift",
+      "category": "numeric",
+      "field": "nh4",
+      "question": "What is the current effluent ammonia nitrogen in mg/L as N?",
+      "answer": 1.044,
+      "unit": "mg/L as N",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q08",
+      "context": "recovered",
+      "category": "numeric",
+      "field": "rejected_m3",
+      "question": "What is cumulative rejected influent in m³ at this snapshot?",
+      "answer": 326.3459493583017,
+      "unit": "m³",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 561; alarm history rows 2–561"
+    },
+    {
+      "id": "Q09",
+      "context": "recovered",
+      "category": "numeric",
+      "field": "wet_level_pct",
+      "question": "What is the current wet-well fill in percent?",
+      "answer": 45.917360531427356,
+      "unit": "%",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 561; alarm history rows 2–561"
+    },
+    {
+      "id": "Q10",
+      "context": "aeration",
+      "category": "numeric",
+      "field": "aerobic_nh4",
+      "question": "What is the current volume-weighted aerobic-zone ammonia nitrogen in mg/L as N?",
+      "answer": 5.323228888879659,
+      "unit": "mg/L as N",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/aeration_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q11",
+      "context": "aeration",
+      "category": "numeric",
+      "field": "nh4",
+      "question": "What is discharge ammonia nitrogen in mg/L as N?",
+      "answer": 1.539,
+      "unit": "mg/L as N",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/aeration_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q12",
+      "context": "aeration",
+      "category": "numeric",
+      "field": "cod",
+      "question": "What is current effluent COD in mg/L?",
+      "answer": 31.65,
+      "unit": "mg/L",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/aeration_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q13",
+      "context": "aeration",
+      "category": "numeric",
+      "field": "energy_kwh",
+      "question": "What is cumulative modeled energy use in kWh?",
+      "answer": 644.530860007495,
+      "unit": "kWh",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/aeration_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q14",
+      "context": "permeate",
+      "category": "numeric",
+      "field": "treated_gpm",
+      "question": "What is the current treated discharge in US gal/min?",
+      "answer": 0.0,
+      "unit": "US gal/min",
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/permeate_60m.csv.gz",
+      "source_row": "row 506; alarm history rows 2–506"
+    },
+    {
+      "id": "Q15",
+      "context": "lift",
+      "category": "alarm",
+      "field": "first_alarm",
+      "question": "Which single alarm or command flag activated first?",
+      "answer": "Lift pump stopped",
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q16",
+      "context": "lift",
+      "category": "alarm",
+      "field": "process",
+      "question": "Which process alarms are active, excluding command-derived flags? Give a JSON list.",
+      "answer": [
+        "Facility lift station: HIGH LEVEL",
+        "Coarse screening: LOW LEVEL",
+        "Grit removal: LOW LEVEL",
+        "Wet well: incoming sewage rejected"
+      ],
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q17",
+      "context": "lift",
+      "category": "fault",
+      "field": "fault",
+      "question": "Which equipment is currently disabled by command? Use lift, aeration, permeate or none.",
+      "answer": "lift",
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q18",
+      "context": "recovered",
+      "category": "alarm",
+      "field": "first_alarm",
+      "question": "Which single alarm or command flag first activated in the supplied event excerpt?",
+      "answer": "Lift pump stopped",
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 561; alarm history rows 2–561"
+    },
+    {
+      "id": "Q19",
+      "context": "recovered",
+      "category": "alarm",
+      "field": "all_alarms",
+      "question": "List the currently active alarms and status flags as a JSON list. Return [] if the snapshot records none.",
+      "answer": [],
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 561; alarm history rows 2–561"
+    },
+    {
+      "id": "Q20",
+      "context": "aeration",
+      "category": "alarm",
+      "field": "all_alarms",
+      "question": "List the currently active alarms and status flags as a JSON list.",
+      "answer": [
+        "Aeration unavailable"
+      ],
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/aeration_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q21",
+      "context": "aeration",
+      "category": "fault",
+      "field": "fault",
+      "question": "Which equipment is currently disabled by command? Use lift, aeration, permeate or none.",
+      "answer": "aeration",
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/aeration_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q22",
+      "context": "permeate",
+      "category": "alarm",
+      "field": "first_alarm",
+      "question": "Which single alarm first activated in the supplied event excerpt?",
+      "answer": "Treated water holding tank: LOW LEVEL",
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/permeate_60m.csv.gz",
+      "source_row": "row 506; alarm history rows 2–506"
+    },
+    {
+      "id": "Q23",
+      "context": "permeate",
+      "category": "fault",
+      "field": "fault",
+      "question": "Which equipment is currently disabled by command? Use lift, aeration, permeate or none.",
+      "answer": "permeate",
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/permeate_60m.csv.gz",
+      "source_row": "row 506; alarm history rows 2–506"
+    },
+    {
+      "id": "Q24",
+      "context": "permeate",
+      "category": "alarm",
+      "field": "all_alarms",
+      "question": "List the currently active alarms and status flags as a JSON list.",
+      "answer": [
+        "Treated water holding tank: LOW LEVEL"
+      ],
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/permeate_60m.csv.gz",
+      "source_row": "row 506; alarm history rows 2–506"
+    },
+    {
+      "id": "Q25",
+      "context": "permeate",
+      "category": "unavailable",
+      "field": "unavailable",
+      "question": "What is the current effluent ammonia nitrogen concentration in mg/L as N?",
+      "answer": null,
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/permeate_60m.csv.gz",
+      "source_row": "row 506; alarm history rows 2–506"
+    },
+    {
+      "id": "Q26",
+      "context": "aeration",
+      "category": "unavailable",
+      "field": "unavailable",
+      "question": "What is current dissolved oxygen in the first aerobic basin in mg/L?",
+      "answer": null,
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/aeration_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q27",
+      "context": "normal",
+      "category": "unavailable",
+      "field": "unavailable",
+      "question": "What is the most recent measured effluent E. coli count?",
+      "answer": null,
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/companion.csv.gz",
+      "source_row": "row 121; alarm history rows 2–121"
+    },
+    {
+      "id": "Q28",
+      "context": "lift",
+      "category": "unavailable",
+      "field": "unavailable",
+      "question": "What is the present bearing temperature of the lift pump in degrees Celsius?",
+      "answer": null,
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 536; alarm history rows 2–536"
+    },
+    {
+      "id": "Q29",
+      "context": "recovered",
+      "category": "unavailable",
+      "field": "unavailable",
+      "question": "What is current site electricity price per kWh?",
+      "answer": null,
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/lift_60m.csv.gz",
+      "source_row": "row 561; alarm history rows 2–561"
+    },
+    {
+      "id": "Q30",
+      "context": "permeate",
+      "category": "unavailable",
+      "field": "unavailable",
+      "question": "What is the lab-measured effluent alkalinity in mg/L as calcium carbonate?",
+      "answer": null,
+      "unit": null,
+      "source_file": "results/step3/equipment/municipal_adopted_t480_none/permeate_60m.csv.gz",
+      "source_row": "row 506; alarm history rows 2–506"
+    }
+  ],
+  "contexts": {
+    "normal": {
+      "simulation_minute": 120,
+      "readings": {
+        "nh4": {
+          "value": 1.046,
+          "unit": "mg/L as N"
+        },
+        "aerobic_nh4": {
+          "value": 1.0373350313358796,
+          "unit": "mg/L as N"
+        },
+        "wet_level_pct": {
+          "value": 31.27731724679677,
+          "unit": "%"
+        },
+        "outlet_level_pct": {
+          "value": 0.0,
+          "unit": "%"
+        },
+        "rejected_m3": {
+          "value": 0.0,
+          "unit": "m³"
+        },
+        "energy_kwh": {
+          "value": 148.26860411382998,
+          "unit": "kWh"
+        },
+        "treated_gpm": {
+          "value": 1862.37,
+          "unit": "US gal/min"
+        },
+        "cod": {
+          "value": 30.009,
+          "unit": "mg/L"
+        },
+        "tss": {
+          "value": 2.0,
+          "unit": "mg/L"
+        }
+      },
+      "current_alarms": [],
+      "alarm_event_excerpt": [],
+      "commanded_equipment_states": {
+        "lift_enabled": true,
+        "aeration_enabled": true,
+        "permeate_enabled": true
+      }
+    },
+    "lift": {
+      "simulation_minute": 535,
+      "readings": {
+        "nh4": {
+          "value": 1.044,
+          "unit": "mg/L as N"
+        },
+        "aerobic_nh4": {
+          "value": 0.9761501027556951,
+          "unit": "mg/L as N"
+        },
+        "wet_level_pct": {
+          "value": 100.0,
+          "unit": "%"
+        },
+        "outlet_level_pct": {
+          "value": 0.0,
+          "unit": "%"
+        },
+        "rejected_m3": {
+          "value": 289.7851805445017,
+          "unit": "m³"
+        },
+        "energy_kwh": {
+          "value": 640.0708509464162,
+          "unit": "kWh"
+        },
+        "treated_gpm": {
+          "value": 1862.37,
+          "unit": "US gal/min"
+        },
+        "cod": {
+          "value": 29.991,
+          "unit": "mg/L"
+        },
+        "tss": {
+          "value": 2.0,
+          "unit": "mg/L"
+        }
+      },
+      "current_alarms": [
+        "Facility lift station: HIGH LEVEL",
+        "Coarse screening: LOW LEVEL",
+        "Grit removal: LOW LEVEL",
+        "Wet well: incoming sewage rejected",
+        "Lift pump stopped"
+      ],
+      "alarm_event_excerpt": [
+        {
+          "minute": 481,
+          "new_alarms": [
+            "Lift pump stopped"
+          ]
+        },
+        {
+          "minute": 494,
+          "new_alarms": [
+            "Facility lift station: HIGH LEVEL"
+          ]
+        },
+        {
+          "minute": 495,
+          "new_alarms": [
+            "Coarse screening: LOW LEVEL",
+            "Wet well: incoming sewage rejected"
+          ]
+        },
+        {
+          "minute": 500,
+          "new_alarms": [
+            "Grit removal: LOW LEVEL"
+          ]
+        }
+      ],
+      "commanded_equipment_states": {
+        "lift_enabled": false,
+        "aeration_enabled": true,
+        "permeate_enabled": true
+      }
+    },
+    "recovered": {
+      "simulation_minute": 560,
+      "readings": {
+        "nh4": {
+          "value": 1.034,
+          "unit": "mg/L as N"
+        },
+        "aerobic_nh4": {
+          "value": 0.8859015786131079,
+          "unit": "mg/L as N"
+        },
+        "wet_level_pct": {
+          "value": 45.917360531427356,
+          "unit": "%"
+        },
+        "outlet_level_pct": {
+          "value": 0.0,
+          "unit": "%"
+        },
+        "rejected_m3": {
+          "value": 326.3459493583017,
+          "unit": "m³"
+        },
+        "energy_kwh": {
+          "value": 673.4342232344866,
+          "unit": "kWh"
+        },
+        "treated_gpm": {
+          "value": 1862.37,
+          "unit": "US gal/min"
+        },
+        "cod": {
+          "value": 29.867,
+          "unit": "mg/L"
+        },
+        "tss": {
+          "value": 2.003,
+          "unit": "mg/L"
+        }
+      },
+      "current_alarms": [],
+      "alarm_event_excerpt": [
+        {
+          "minute": 481,
+          "new_alarms": [
+            "Lift pump stopped"
+          ]
+        },
+        {
+          "minute": 494,
+          "new_alarms": [
+            "Facility lift station: HIGH LEVEL"
+          ]
+        },
+        {
+          "minute": 495,
+          "new_alarms": [
+            "Coarse screening: LOW LEVEL",
+            "Wet well: incoming sewage rejected"
+          ]
+        },
+        {
+          "minute": 500,
+          "new_alarms": [
+            "Grit removal: LOW LEVEL"
+          ]
+        }
+      ],
+      "commanded_equipment_states": {
+        "lift_enabled": true,
+        "aeration_enabled": true,
+        "permeate_enabled": true
+      }
+    },
+    "aeration": {
+      "simulation_minute": 535,
+      "readings": {
+        "nh4": {
+          "value": 1.539,
+          "unit": "mg/L as N"
+        },
+        "aerobic_nh4": {
+          "value": 5.323228888879659,
+          "unit": "mg/L as N"
+        },
+        "wet_level_pct": {
+          "value": 31.27731724679677,
+          "unit": "%"
+        },
+        "outlet_level_pct": {
+          "value": 0.0,
+          "unit": "%"
+        },
+        "rejected_m3": {
+          "value": 0.0,
+          "unit": "m³"
+        },
+        "energy_kwh": {
+          "value": 644.530860007495,
+          "unit": "kWh"
+        },
+        "treated_gpm": {
+          "value": 1862.37,
+          "unit": "US gal/min"
+        },
+        "cod": {
+          "value": 31.65,
+          "unit": "mg/L"
+        },
+        "tss": {
+          "value": 2.0,
+          "unit": "mg/L"
+        }
+      },
+      "current_alarms": [
+        "Aeration unavailable"
+      ],
+      "alarm_event_excerpt": [
+        {
+          "minute": 481,
+          "new_alarms": [
+            "Aeration unavailable"
+          ]
+        }
+      ],
+      "commanded_equipment_states": {
+        "lift_enabled": true,
+        "aeration_enabled": false,
+        "permeate_enabled": true
+      }
+    },
+    "permeate": {
+      "simulation_minute": 505,
+      "readings": {
+        "nh4": {
+          "value": null,
+          "unit": "mg/L as N"
+        },
+        "aerobic_nh4": {
+          "value": 1.0373381616090283,
+          "unit": "mg/L as N"
+        },
+        "wet_level_pct": {
+          "value": 31.27731724679677,
+          "unit": "%"
+        },
+        "outlet_level_pct": {
+          "value": 0.0,
+          "unit": "%"
+        },
+        "rejected_m3": {
+          "value": 0.0,
+          "unit": "m³"
+        },
+        "energy_kwh": {
+          "value": 615.7766933012684,
+          "unit": "kWh"
+        },
+        "treated_gpm": {
+          "value": 0.0,
+          "unit": "US gal/min"
+        },
+        "cod": {
+          "value": null,
+          "unit": "mg/L"
+        },
+        "tss": {
+          "value": null,
+          "unit": "mg/L"
+        }
+      },
+      "current_alarms": [
+        "Treated water holding tank: LOW LEVEL"
+      ],
+      "alarm_event_excerpt": [
+        {
+          "minute": 481,
+          "new_alarms": [
+            "Treated water holding tank: LOW LEVEL"
+          ]
+        }
+      ],
+      "commanded_equipment_states": {
+        "lift_enabled": true,
+        "aeration_enabled": true,
+        "permeate_enabled": false
+      }
+    }
+  },
+  "scoring_notes": "Question-level correctness uses saved ground truth. Any asserted answer that fails its requested field or is unsupported by supplied context is an unsupported claim. Numeric hallucinations are the numeric subset. Refusals count as abstentions. Transport failures reduce correctness coverage and are excluded from hallucination-rate denominators.",
+  "configured_primary_model": "gemini-3.5-flash-lite",
+  "configured_fallback_preferred_model": "openai/gpt-oss-120b",
+  "responses": [
+    {
+      "question_id": "Q01",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": 1.046, \"unit\": \"mg/L as N\"}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q01",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q01",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 1.046,\n  \"unit\": \"mg/L as N\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q02",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 31.27731724679677,\n  \"unit\": \"%\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q02",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q02",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 31.27731724679677,\n  \"unit\": \"%\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q03",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": 1862.37, \"unit\": \"US gal/min\"}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q03",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\n\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": false,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": true
+    },
+    {
+      "question_id": "Q03",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 1862.37,\n  \"unit\": \"US gal/min\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q04",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 100.0,\n  \"unit\": \"%\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q04",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q04",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 100.0,\n  \"unit\": \"%\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q05",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 289.7851805445017,\n  \"unit\": \"m\\u00b3\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q05",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q05",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 289.7851805445017,\n  \"unit\": \"m³\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q06",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 640.0708509464162,\n  \"unit\": \"kWh\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q06",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q06",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 640.0708509464162,\n  \"unit\": \"kWh\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q07",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 1.044,\n  \"unit\": \"mg/L as N\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q07",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q07",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 1.044,\n  \"unit\": \"mg/L as N\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q08",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 326.3459493583017,\n  \"unit\": \"m³\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q08",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q08",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 326.3459493583017,\n  \"unit\": \"m³\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q09",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 45.917360531427356,\n  \"unit\": \"%\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q09",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\n\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": false,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": true
+    },
+    {
+      "question_id": "Q09",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 45.917360531427356,\n  \"unit\": \"%\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q10",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": 5.323228888879659, \"unit\": \"mg/L as N\"}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q10",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \n\"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q10",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 5.323228888879659,\n  \"unit\": \"mg/L as N\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q11",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 1.539,\n  \"unit\": \"mg/L as N\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q11",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "{\"status\": \"unknown\", \"value\": null, \"unit\": null}",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q11",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 1.539,\n  \"unit\": \"mg/L as N\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q12",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": 31.65, \"unit\": \"mg/L\"}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q12",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q12",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 31.65,\n  \"unit\": \"mg/L\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q13",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 644.530860007495,\n  \"unit\": \"kWh\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q13",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "{\"status\": \"unknown\", \"value\": null, \"unit\": null}",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q13",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 644.530860007495,\n  \"unit\": \"kWh\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q14",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": 0.0,\n  \"unit\": \"US gal/min\"\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q14",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q14",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": 0.0,\n  \"unit\": \"US gal/min\"\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q15",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": \"Lift pump stopped\", \"unit\": null}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q15",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q15",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": \"Lift pump stopped\",\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q16",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": [\n    \"Facility lift station: HIGH LEVEL\",\n    \"Co\narse screening: LOW LEVEL\",\n    \"Grit removal: LOW LEVEL\",\n    \"Wet well: incoming sewage rejected\",\n    \"Lift pump stopped\"\n  ],\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": false,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": true
+    },
+    {
+      "question_id": "Q16",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q16",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": [\n    \"Facility lift station: HIGH LEVEL\",\n    \"Coarse screening: LOW LEVEL\",\n    \"Grit removal: LOW LEVEL\",\n    \"Wet well: incoming sewage rejected\",\n    \"Lift pump stopped\"\n  ],\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": true,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q17",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": [\"lift\"], \"unit\": null}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": true,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q17",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q17",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": \"lift\",\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q18",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": \"Lift pump stopped\",\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q18",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q18",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\"status\":\"known\",\"value\":\"Lift pump stopped\",\"unit\":null}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q19",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": [],\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q19",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q19",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": [\n    [],\n    {\n      \"lift_enabled\": true,\n      \"aeration_enabled\": true,\n      \"permeate_enabled\": true\n    }\n  ],\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": true,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q20",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": [\n    \"Aeration unavailable\"\n  ],\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q20",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q20",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": [\n    \"Aeration unavailable\",\n    \"lift_enabled: true\",\n    \"aeration_enabled: false\",\n    \"permeate_enabled: true\"\n  ],\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": true,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q21",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": [\n    \"aeration\"\n  ],\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": true,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q21",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q21",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\"status\":\"known\",\"value\":\"aeration\",\"unit\":null}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q22",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": \"Treated water holding tank: LOW LEVEL\", \"unit\": null}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q22",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q22",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": \"Treated water holding tank: LOW LEVEL\",\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q23",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"known\",\n  \"value\": [\n    \"permeate\"\n  ],\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": true,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q23",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q23",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": \"permeate\",\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q24",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": [\"Treated water holding tank: LOW LEVEL\"], \"unit\": null}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q24",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q24",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"known\",\n  \"value\": [\n    \"Treated water holding tank: LOW LEVEL\",\n    \"lift_enabled: true\",\n    \"aeration_enabled: true\",\n    \"permeate_enabled: false\"\n  ],\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": true,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q25",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"known\", \"value\": null, \"unit\": \"mg/L as N\"}\n```",
+      "error": null,
+      "valid_response": false,
+      "correct": false,
+      "abstained": false,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": true
+    },
+    {
+      "question_id": "Q25",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q25",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q26",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"unknown\", \"value\": null, \"unit\": null}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q26",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q26",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q27",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"unknown\", \"value\": null, \"unit\": null}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q27",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q27",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q28",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\"status\": \"unknown\", \"value\": null, \"unit\": null}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q28",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q28",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q29",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q29",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q29",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q30",
+      "mode": "with_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q30",
+      "mode": "without_snapshot",
+      "provider": "Gemini",
+      "raw_response": "```json\n{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}\n```",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    },
+    {
+      "question_id": "Q30",
+      "mode": "fallback_with_snapshot",
+      "provider": "Groq forced fallback",
+      "raw_response": "{\n  \"status\": \"unknown\",\n  \"value\": null,\n  \"unit\": null\n}",
+      "error": null,
+      "valid_response": true,
+      "correct": true,
+      "abstained": true,
+      "unsupported_claim": false,
+      "numeric_hallucination": false,
+      "response_requires_review": false
+    }
+  ],
+  "summary": [
+    {
+      "mode": "with_snapshot",
+      "questions": 30,
+      "responses": 30,
+      "numeric_correct": 14,
+      "numeric_eligible": 14,
+      "alarm_correct": 6,
+      "alarm_eligible": 7,
+      "fault_correct": 0,
+      "fault_eligible": 3,
+      "trick_correct": 5,
+      "trick_eligible": 6,
+      "abstained": 5,
+      "unsupported_claim": 3,
+      "numeric_hallucination": 0,
+      "response_requires_review": 2,
+      "numeric_hallucination_percent": 0.0,
+      "unsupported_claim_percent": 10.0
+    },
+    {
+      "mode": "without_snapshot",
+      "questions": 30,
+      "responses": 30,
+      "numeric_correct": 0,
+      "numeric_eligible": 14,
+      "alarm_correct": 0,
+      "alarm_eligible": 7,
+      "fault_correct": 0,
+      "fault_eligible": 3,
+      "trick_correct": 6,
+      "trick_eligible": 6,
+      "abstained": 28,
+      "unsupported_claim": 0,
+      "numeric_hallucination": 0,
+      "response_requires_review": 2,
+      "numeric_hallucination_percent": 0.0,
+      "unsupported_claim_percent": 0.0
+    },
+    {
+      "mode": "fallback_with_snapshot",
+      "questions": 30,
+      "responses": 30,
+      "numeric_correct": 14,
+      "numeric_eligible": 14,
+      "alarm_correct": 3,
+      "alarm_eligible": 7,
+      "fault_correct": 3,
+      "fault_eligible": 3,
+      "trick_correct": 6,
+      "trick_eligible": 6,
+      "abstained": 6,
+      "unsupported_claim": 4,
+      "numeric_hallucination": 0,
+      "response_requires_review": 0,
+      "numeric_hallucination_percent": 0.0,
+      "unsupported_claim_percent": 13.333333333333334
+    }
+  ]
+}

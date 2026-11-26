@@ -1,0 +1,519 @@
+{
+  "run_id": "municipal_adopted_t480_none_lift_240m",
+  "trace": "results/step3/equipment/municipal_adopted_t480_none/lift_240m.csv.gz",
+  "trace_row": 501,
+  "capture_minute": 500,
+  "elapsed_since_onset_min": 20,
+  "snapshot": {
+    "time_s": 30000,
+    "energy_kwh": 610.164,
+    "step_energy_kwh": 0.8545,
+    "recycle_power_kw": 1.62,
+    "tanks": {
+      "lift": {
+        "name": "Facility lift station",
+        "pct": 100,
+        "level_m": 4,
+        "volume_m3": 153.938,
+        "quality": {
+          "bod": 200,
+          "cod": 500,
+          "tss": 200,
+          "nh4": 25,
+          "no3": 0
+        },
+        "role": "inlet"
+      },
+      "coarse": {
+        "name": "Coarse screening",
+        "pct": 1.97,
+        "level_m": 0.049,
+        "volume_m3": 1.777,
+        "quality": {
+          "bod": 200,
+          "cod": 500,
+          "tss": 200,
+          "nh4": 25,
+          "no3": 0
+        },
+        "role": "screen"
+      },
+      "grit": {
+        "name": "Grit removal",
+        "pct": 4.81,
+        "level_m": 0.144,
+        "volume_m3": 7.219,
+        "quality": {
+          "bod": 200,
+          "cod": 500,
+          "tss": 200,
+          "nh4": 25,
+          "no3": 0
+        },
+        "role": "screen"
+      },
+      "eq1": {
+        "name": "Equalization basin 1",
+        "pct": 50,
+        "level_m": 2.286,
+        "volume_m3": 726.581,
+        "quality": {
+          "bod": 199.781,
+          "cod": 499.443,
+          "tss": 200,
+          "nh4": 24.999,
+          "no3": 0.001
+        },
+        "role": "eq"
+      },
+      "eq2": {
+        "name": "Equalization basin 2",
+        "pct": 50,
+        "level_m": 2.25,
+        "volume_m3": 254.469,
+        "quality": {
+          "bod": 200,
+          "cod": 500,
+          "tss": 200,
+          "nh4": 25,
+          "no3": 0
+        },
+        "role": "eq"
+      },
+      "fine": {
+        "name": "Fine screening",
+        "pct": 25.77,
+        "level_m": 0.644,
+        "volume_m3": 25.773,
+        "quality": {
+          "bod": 199.957,
+          "cod": 499.89,
+          "tss": 200,
+          "nh4": 25,
+          "no3": 0
+        },
+        "role": "screen"
+      },
+      "ana1": {
+        "name": "Anaerobic zone 1",
+        "pct": 41.18,
+        "level_m": 1.853,
+        "volume_m3": 148.242,
+        "quality": {
+          "bod": 115.436,
+          "cod": 348.168,
+          "tss": 2865.471,
+          "nh4": 18.485,
+          "no3": 4.626
+        },
+        "role": "ana"
+      },
+      "pre1": {
+        "name": "Pre-anoxic zone 1",
+        "pct": 70.66,
+        "level_m": 3.18,
+        "volume_m3": 228.945,
+        "quality": {
+          "bod": 53.469,
+          "cod": 201.663,
+          "tss": 3359.902,
+          "nh4": 11.717,
+          "no3": 8.569
+        },
+        "role": "pre"
+      },
+      "aero1": {
+        "name": "Aerobic basin 1",
+        "pct": 54.02,
+        "level_m": 2.431,
+        "volume_m3": 427.84,
+        "quality": {
+          "bod": 18.109,
+          "cod": 103.755,
+          "tss": 4261.188,
+          "nh4": 1.036,
+          "no3": 18.955
+        },
+        "role": "aero"
+      },
+      "post1": {
+        "name": "Post-anoxic zone 1",
+        "pct": 53.99,
+        "level_m": 2.429,
+        "volume_m3": 174.919,
+        "quality": {
+          "bod": 13.836,
+          "cod": 87.538,
+          "tss": 4260.19,
+          "nh4": 1.046,
+          "no3": 17.005
+        },
+        "role": "post"
+      },
+      "mbr1": {
+        "name": "Membrane tank 1",
+        "pct": 34,
+        "level_m": 1.53,
+        "volume_m3": 159.105,
+        "quality": {
+          "bod": 25.776,
+          "cod": 165.263,
+          "tss": 10009.232,
+          "nh4": 1.046,
+          "no3": 17.008
+        },
+        "role": "mbr"
+      },
+      "ana2": {
+        "name": "Anaerobic zone 2",
+        "pct": 41.18,
+        "level_m": 1.853,
+        "volume_m3": 148.242,
+        "quality": {
+          "bod": 115.436,
+          "cod": 348.168,
+          "tss": 2865.471,
+          "nh4": 18.485,
+          "no3": 4.626
+        },
+        "role": "ana"
+      },
+      "pre2": {
+        "name": "Pre-anoxic zone 2",
+        "pct": 70.66,
+        "level_m": 3.18,
+        "volume_m3": 228.945,
+        "quality": {
+          "bod": 53.469,
+          "cod": 201.663,
+          "tss": 3359.902,
+          "nh4": 11.717,
+          "no3": 8.569
+        },
+        "role": "pre"
+      },
+      "aero2": {
+        "name": "Aerobic basin 2",
+        "pct": 54.02,
+        "level_m": 2.431,
+        "volume_m3": 427.84,
+        "quality": {
+          "bod": 18.109,
+          "cod": 103.755,
+          "tss": 4261.188,
+          "nh4": 1.036,
+          "no3": 18.955
+        },
+        "role": "aero"
+      },
+      "post2": {
+        "name": "Post-anoxic zone 2",
+        "pct": 53.99,
+        "level_m": 2.429,
+        "volume_m3": 174.919,
+        "quality": {
+          "bod": 13.836,
+          "cod": 87.538,
+          "tss": 4260.19,
+          "nh4": 1.046,
+          "no3": 17.005
+        },
+        "role": "post"
+      },
+      "mbr2": {
+        "name": "Membrane tank 2",
+        "pct": 34,
+        "level_m": 1.53,
+        "volume_m3": 159.105,
+        "quality": {
+          "bod": 25.776,
+          "cod": 165.263,
+          "tss": 10009.232,
+          "nh4": 1.046,
+          "no3": 17.008
+        },
+        "role": "mbr"
+      },
+      "ana3": {
+        "name": "Anaerobic zone 3",
+        "pct": 41.18,
+        "level_m": 1.853,
+        "volume_m3": 148.242,
+        "quality": {
+          "bod": 115.436,
+          "cod": 348.168,
+          "tss": 2865.471,
+          "nh4": 18.485,
+          "no3": 4.626
+        },
+        "role": "ana"
+      },
+      "pre3": {
+        "name": "Pre-anoxic zone 3",
+        "pct": 70.66,
+        "level_m": 3.18,
+        "volume_m3": 228.945,
+        "quality": {
+          "bod": 53.469,
+          "cod": 201.663,
+          "tss": 3359.902,
+          "nh4": 11.717,
+          "no3": 8.569
+        },
+        "role": "pre"
+      },
+      "aero3": {
+        "name": "Aerobic basin 3",
+        "pct": 54.02,
+        "level_m": 2.431,
+        "volume_m3": 427.84,
+        "quality": {
+          "bod": 18.109,
+          "cod": 103.755,
+          "tss": 4261.188,
+          "nh4": 1.036,
+          "no3": 18.955
+        },
+        "role": "aero"
+      },
+      "post3": {
+        "name": "Post-anoxic zone 3",
+        "pct": 53.99,
+        "level_m": 2.429,
+        "volume_m3": 174.919,
+        "quality": {
+          "bod": 13.836,
+          "cod": 87.538,
+          "tss": 4260.19,
+          "nh4": 1.046,
+          "no3": 17.005
+        },
+        "role": "post"
+      },
+      "mbr3": {
+        "name": "Membrane tank 3",
+        "pct": 34,
+        "level_m": 1.53,
+        "volume_m3": 159.105,
+        "quality": {
+          "bod": 25.776,
+          "cod": 165.263,
+          "tss": 10009.232,
+          "nh4": 1.046,
+          "no3": 17.008
+        },
+        "role": "mbr"
+      },
+      "ana4": {
+        "name": "Anaerobic zone 4",
+        "pct": 41.18,
+        "level_m": 1.853,
+        "volume_m3": 148.242,
+        "quality": {
+          "bod": 115.436,
+          "cod": 348.168,
+          "tss": 2865.471,
+          "nh4": 18.485,
+          "no3": 4.626
+        },
+        "role": "ana"
+      },
+      "pre4": {
+        "name": "Pre-anoxic zone 4",
+        "pct": 70.66,
+        "level_m": 3.18,
+        "volume_m3": 228.945,
+        "quality": {
+          "bod": 53.469,
+          "cod": 201.663,
+          "tss": 3359.902,
+          "nh4": 11.717,
+          "no3": 8.569
+        },
+        "role": "pre"
+      },
+      "aero4": {
+        "name": "Aerobic basin 4",
+        "pct": 54.02,
+        "level_m": 2.431,
+        "volume_m3": 427.84,
+        "quality": {
+          "bod": 18.109,
+          "cod": 103.755,
+          "tss": 4261.188,
+          "nh4": 1.036,
+          "no3": 18.955
+        },
+        "role": "aero"
+      },
+      "post4": {
+        "name": "Post-anoxic zone 4",
+        "pct": 53.99,
+        "level_m": 2.429,
+        "volume_m3": 174.919,
+        "quality": {
+          "bod": 13.836,
+          "cod": 87.538,
+          "tss": 4260.19,
+          "nh4": 1.046,
+          "no3": 17.005
+        },
+        "role": "post"
+      },
+      "mbr4": {
+        "name": "Membrane tank 4",
+        "pct": 34,
+        "level_m": 1.53,
+        "volume_m3": 159.105,
+        "quality": {
+          "bod": 25.776,
+          "cod": 165.263,
+          "tss": 10009.232,
+          "nh4": 1.046,
+          "no3": 17.008
+        },
+        "role": "mbr"
+      },
+      "outlet": {
+        "name": "Treated water holding tank",
+        "pct": 0,
+        "level_m": 0,
+        "volume_m3": 0,
+        "quality": {
+          "bod": 0,
+          "cod": 0,
+          "tss": 0,
+          "nh4": 0,
+          "no3": 0
+        },
+        "role": "outlet"
+      }
+    },
+    "flows_gpm": {
+      "inlet": 0,
+      "coarse_grit": 81.97,
+      "eq_feed1": 195,
+      "eq_feed2": 195,
+      "grit_fine": 206.88,
+      "eq_return1": 195,
+      "eq_return2": 195,
+      "feed1": 254.83,
+      "ana_pre1": 619.71,
+      "pre_aero1": 1061.04,
+      "aero_post1": 810.94,
+      "post_mem1": 811,
+      "nrcy1": 420,
+      "arcy1": 168,
+      "ras1": 168,
+      "waste1": 9.41,
+      "permeate1": 465.59,
+      "feed2": 254.83,
+      "ana_pre2": 619.71,
+      "pre_aero2": 1061.04,
+      "aero_post2": 810.94,
+      "post_mem2": 811,
+      "nrcy2": 420,
+      "arcy2": 168,
+      "ras2": 168,
+      "waste2": 9.41,
+      "permeate2": 465.59,
+      "feed3": 254.83,
+      "ana_pre3": 619.71,
+      "pre_aero3": 1061.04,
+      "aero_post3": 810.94,
+      "post_mem3": 811,
+      "nrcy3": 420,
+      "arcy3": 168,
+      "ras3": 168,
+      "waste3": 9.41,
+      "permeate3": 465.59,
+      "feed4": 254.83,
+      "ana_pre4": 619.71,
+      "pre_aero4": 1061.04,
+      "aero_post4": 810.94,
+      "post_mem4": 811,
+      "nrcy4": 420,
+      "arcy4": 168,
+      "ras4": 168,
+      "waste4": 9.41,
+      "permeate4": 465.59,
+      "treated_out": 1862.37
+    },
+    "alerts": [
+      "Facility lift station: HIGH LEVEL",
+      "Coarse screening: LOW LEVEL",
+      "Grit removal: LOW LEVEL",
+      "Wet well: incoming sewage rejected",
+      "Lift pump stopped"
+    ],
+    "mass_balance_m3": 0,
+    "effluent_quality": {
+      "bod": 5.005,
+      "cod": 30.011,
+      "tss": 2,
+      "nh4": 1.046,
+      "no3": 17.008
+    },
+    "permeate_tss_mg_l": 2.00000039100144,
+    "quality_balance_kg": {
+      "bod": 0,
+      "cod": 0,
+      "tss": 0,
+      "nh4": 0,
+      "no3": 0
+    },
+    "membrane_tmp_kpa": {
+      "1": 13.01,
+      "2": 13.01,
+      "3": 13.01,
+      "4": 13.01
+    },
+    "rejected_m3": 38.055,
+    "sludge_waste_m3": 71.218,
+    "reference": {
+      "plant_mgd": 7.5,
+      "outlet_mgd": 3.1,
+      "outlet_cod": 5,
+      "outlet_tss": 2,
+      "electricity_kwh_per_hr": 19.65
+    },
+    "uncalibrated": true
+  },
+  "controls": {
+    "inlet_gpm": 1900,
+    "lift_gpm": 3000,
+    "permeate_gpm": 2063.570608858614,
+    "eq_fraction": 0.15,
+    "eq_return_gpm": 390,
+    "nrcy_ratio": 0.3,
+    "arcy_ratio": 0.12,
+    "ras_ratio": 0.12,
+    "wasting_ratio": 0.006719200983053761,
+    "aeration": 1,
+    "air_scour": 1,
+    "fouling": 0.15,
+    "inlet_bod": 200,
+    "inlet_cod": 500,
+    "inlet_tss": 200,
+    "inlet_nh4": 25,
+    "inlet_no3": 0,
+    "lift_on": false,
+    "permeate_on": true,
+    "eq_on": true,
+    "recycle_on": true,
+    "dt_s": 60,
+    "stream_type": "municipal",
+    "aerobic_ph": 7.2
+  },
+  "capture_method": "Isolated FastAPI simulator replay of the verified municipal run, then a headless Chrome screenshot of the React dashboard scene and alarms.",
+  "dashboard_text": "LIVE 3D PROCESS SCENE\nSELECTED UNIT\nFacility lift station\nLEVEL\n100.0%\nCOD\n500.00 mg/L\nTSS\n200.00 mg/L\nNH₄-N\n25.00 mg/L\nEVENT LOG\nFacility lift station: HIGH LEVEL\nCoarse screening: LOW LEVEL\nGrit removal: LOW LEVEL\nWet well: incoming sewage rejected\nLift pump stopped",
+  "viewport": {
+    "x": 400,
+    "y": 111,
+    "width": 720,
+    "height": 748,
+    "scale": 1
+  },
+  "canvas_width": 1220,
+  "canvas_height": 572
+}
